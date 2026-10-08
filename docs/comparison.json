@@ -1,0 +1,250 @@
+{
+  "warning": "SIMULATION: documentation defaults; equal scenario weights are assumptions, not forecasts. 400-cycle horizon, no staking value, no current LP snapshot. Daily stops may extend the elapsed time.",
+  "candidates": [
+    {
+      "leverage": 1000,
+      "estimatedWeightedPaper": 123949.99999999725,
+      "worstScenarioPaper": 95799.999999989,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 391,
+          "netUsdcLost": 772.7024074905923,
+          "paper": 95799.999999989,
+          "paperPerNetUsdcLost": 123.98046009861224
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 40,
+          "netUsdcLost": 275.65116391460833,
+          "paper": 100000,
+          "paperPerNetUsdcLost": 362.77735446449327
+        },
+        {
+          "scenario": "large",
+          "cycles": 40,
+          "netUsdcLost": -7638.397838421071,
+          "paper": 100000,
+          "paperPerNetUsdcLost": null
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 40,
+          "netUsdcLost": 2000,
+          "paper": 200000,
+          "paperPerNetUsdcLost": 100
+        }
+      ]
+    },
+    {
+      "leverage": 500,
+      "estimatedWeightedPaper": 85656.87499999584,
+      "worstScenarioPaper": 49002.49999999437,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 395.2441982049445,
+          "paper": 49002.49999999437,
+          "paperPerNetUsdcLost": 123.98031450568007
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 79,
+          "netUsdcLost": 272.2055243655677,
+          "paper": 96849.99999998935,
+          "paperPerNetUsdcLost": 355.797334479962
+        },
+        {
+          "scenario": "large",
+          "cycles": 40,
+          "netUsdcLost": -3319.1989192105366,
+          "paper": 100000,
+          "paperPerNetUsdcLost": null
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 79,
+          "netUsdcLost": 272.2055243655841,
+          "paper": 96774.99999999964,
+          "paperPerNetUsdcLost": 355.5218073753217
+        }
+      ]
+    },
+    {
+      "leverage": 250,
+      "estimatedWeightedPaper": 79215.93749999654,
+      "worstScenarioPaper": 24501.249999997184,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 197.62209910245474,
+          "paper": 24501.249999997184,
+          "paperPerNetUsdcLost": 123.98031450569106
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 157,
+          "netUsdcLost": 270.4827045910854,
+          "paper": 96199.9999999892,
+          "paperPerNetUsdcLost": 355.66044840251044
+        },
+        {
+          "scenario": "large",
+          "cycles": 40,
+          "netUsdcLost": -1159.5994596052697,
+          "paper": 100000,
+          "paperPerNetUsdcLost": null
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 157,
+          "netUsdcLost": 270.482704591117,
+          "paper": 96162.49999999974,
+          "paperPerNetUsdcLost": 355.52180737532393
+        }
+      ]
+    },
+    {
+      "leverage": 100,
+      "estimatedWeightedPaper": 75351.37499999686,
+      "worstScenarioPaper": 9800.499999998969,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 79.0488396409728,
+          "paper": 9800.499999998969,
+          "paperPerNetUsdcLost": 123.98031450570652
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 391,
+          "netUsdcLost": 269.4490127264298,
+          "paper": 95809.999999989,
+          "paperPerNetUsdcLost": 355.57747653454715
+        },
+        {
+          "scenario": "large",
+          "cycles": 40,
+          "netUsdcLost": 136.16021615789577,
+          "paper": 100000,
+          "paperPerNetUsdcLost": 734.4289163292513
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 391,
+          "netUsdcLost": 269.44901272643983,
+          "paper": 95794.99999999946,
+          "paperPerNetUsdcLost": 355.5218073753199
+        }
+      ]
+    },
+    {
+      "leverage": 50,
+      "estimatedWeightedPaper": 49658.187499998414,
+      "worstScenarioPaper": 4900.249999999484,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 39.52441982050914,
+          "paper": 4900.249999999484,
+          "paperPerNetUsdcLost": 123.98031450563519
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 400,
+          "netUsdcLost": 137.8255819572164,
+          "paper": 49007.49999999437,
+          "paperPerNetUsdcLost": 355.57622397855863
+        },
+        {
+          "scenario": "large",
+          "cycles": 78,
+          "netUsdcLost": 132.7562107539486,
+          "paper": 95725.00000000003,
+          "paperPerNetUsdcLost": 721.0585437499228
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 400,
+          "netUsdcLost": 137.82558195724755,
+          "paper": 48999.99999999976,
+          "paperPerNetUsdcLost": 355.5218073753477
+        }
+      ]
+    },
+    {
+      "leverage": 25,
+      "estimatedWeightedPaper": 36772.84374999921,
+      "worstScenarioPaper": 2450.124999999742,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 19.76220991023183,
+          "paper": 2450.124999999742,
+          "paperPerNetUsdcLost": 123.98031450577784
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 400,
+          "netUsdcLost": 68.91279097858387,
+          "paper": 24503.749999997184,
+          "paperPerNetUsdcLost": 355.57622397868414
+        },
+        {
+          "scenario": "large",
+          "cycles": 156,
+          "netUsdcLost": 132.7562107539311,
+          "paper": 95637.50000000001,
+          "paperPerNetUsdcLost": 720.3994408763889
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 400,
+          "netUsdcLost": 68.91279097862684,
+          "paper": 24499.99999999988,
+          "paperPerNetUsdcLost": 355.52180737533183
+        }
+      ]
+    },
+    {
+      "leverage": 10,
+      "estimatedWeightedPaper": 29102.887499999713,
+      "worstScenarioPaper": 980.0499999998847,
+      "outcomes": [
+        {
+          "scenario": "tiny",
+          "cycles": 400,
+          "netUsdcLost": 7.904883964101828,
+          "paper": 980.0499999998847,
+          "paperPerNetUsdcLost": 123.98031450563366
+        },
+        {
+          "scenario": "moderate",
+          "cycles": 400,
+          "netUsdcLost": 27.56511639145174,
+          "paper": 9801.499999998969,
+          "paperPerNetUsdcLost": 355.57622397845296
+        },
+        {
+          "scenario": "large",
+          "cycles": 391,
+          "netUsdcLost": 133.09661129434312,
+          "paper": 95830.00000000001,
+          "paperPerNetUsdcLost": 720.0033048780783
+        },
+        {
+          "scenario": "rapid-reversal",
+          "cycles": 400,
+          "netUsdcLost": 27.56511639145174,
+          "paper": 9799.999999999985,
+          "paperPerNetUsdcLost": 355.5218073753202
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[Unit]
+Description=Paper capital bot (simulation only)
+
+[Service]
+Type=oneshot
+# Replace these owner-settable paths before installation.
+WorkingDirectory=/OWNER/SET/source
+ExecStart=/OWNER/SET/node24 /OWNER/SET/source/src/cli.ts dry-run /OWNER/SET/config.json
+Restart=no
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/OWNER/SET/state
+TimeoutStopSec=30
+StandardOutput=journal
+StandardError=journal

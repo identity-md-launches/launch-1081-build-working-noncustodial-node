@@ -1,0 +1,14 @@
+{
+  "capital": 2000,
+  "marginPerWallet": 25,
+  "maxPairLoss": 100,
+  "dailyLoss": 300,
+  "maxMarginPerWallet": 50,
+  "maxLeverage": 1000,
+  "maxPriceAgeMs": 5000,
+  "leverageCandidates": [10, 25, 50, 100, 250, 500, 1000],
+  "market": "BTC",
+  "cycles": 8,
+  "stateDirectory": "runtime/dry-run",
+  "emergencyFile": "runtime/STOP"
+}

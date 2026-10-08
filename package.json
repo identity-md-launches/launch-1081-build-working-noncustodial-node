@@ -1,0 +1,5 @@
+{
+  "name": "paper-capital-bot", "version": "1.0.0", "private": true,
+  "type": "module", "engines": {"node": ">=24 <25"},
+  "scripts": {"test": "node --test test/*.test.ts", "demo": "node src/cli.ts dry-run", "compare": "node src/cli.ts compare", "connectivity": "node src/cli.ts connectivity", "start": "node src/cli.ts"}
+}
